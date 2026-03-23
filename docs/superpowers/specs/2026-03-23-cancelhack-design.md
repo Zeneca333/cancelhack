@@ -51,7 +51,7 @@ A directory of subscription services that offer retention discounts when you att
 
 - **AI Batch Script** researches subscription services via Claude API with web search, extracts structured retention offer data, and upserts rows into Supabase.
 - **Supabase** stores all service data in a single `services` table.
-- **Next.js on Vercel** renders static/ISR pages from Supabase. Pages are pre-rendered at build time and revalidated periodically.
+- **Next.js on Vercel** renders static/ISR pages from Supabase. Pages are pre-rendered at build time and revalidated every 24 hours (`revalidate: 86400`).
 - **Client-side search** filters the full dataset in the browser (~100 services is small enough for this to be performant).
 
 ## Data Model
@@ -188,7 +188,11 @@ Start with ~100 popular subscription services across categories:
 ### Cost Control
 
 - ~100 API calls per run, each a single turn with web search
-- Estimate: low cost per run given small payload sizes
+- Estimate: ~$1–5 per full batch run (100 calls at ~$0.01–0.05 each with web search on Claude Sonnet)
+
+### Savings Calculation
+
+`estimated_savings` represents the total dollar amount saved over the offer period (not annualized). The AI should calculate this from the normal price and offer terms — e.g., "50% off for 3 months" on a $15.99/mo plan = $24.00 saved. This keeps the number concrete and verifiable.
 
 ## MVP Scope
 
