@@ -11,6 +11,8 @@
  *   node scripts/research.mjs --dry-run      # skip Supabase writes, print JSON
  */
 
+import dotenv from "dotenv";
+dotenv.config({ path: ".env.local" });
 import { readFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
@@ -22,7 +24,7 @@ import { createClient } from "@supabase/supabase-js";
 // ---------------------------------------------------------------------------
 
 const VENICE_BASE_URL = "https://api.venice.ai/api/v1";
-const VENICE_MODEL = "claude-3-5-sonnet-20241022";
+const VENICE_MODEL = "claude-opus-4-6";
 const DELAY_MS = 1500; // delay between API calls to respect rate limits
 const MAX_RETRIES = 2; // retry failed API calls up to this many times
 
@@ -130,7 +132,7 @@ async function callVeniceAI(service, attempt = 1) {
       model: VENICE_MODEL,
       messages: [{ role: "user", content: buildPrompt(service) }],
       temperature: 0.2,
-      max_tokens: 1500,
+      max_tokens: 3000,
       // Venice-specific: enable web search
       venice_parameters: {
         enable_web_search: "on",
