@@ -1,0 +1,54 @@
+[
+  { "name": "Netflix", "domain": "netflix.com", "category": "streaming" },
+  { "name": "Hulu", "domain": "hulu.com", "category": "streaming" },
+  { "name": "Disney+", "domain": "disneyplus.com", "category": "streaming" },
+  { "name": "HBO Max", "domain": "max.com", "category": "streaming" },
+  { "name": "Paramount+", "domain": "paramountplus.com", "category": "streaming" },
+  { "name": "Peacock", "domain": "peacocktv.com", "category": "streaming" },
+  { "name": "Apple TV+", "domain": "tv.apple.com", "category": "streaming" },
+  { "name": "YouTube Premium", "domain": "youtube.com", "category": "streaming" },
+  { "name": "Crunchyroll", "domain": "crunchyroll.com", "category": "streaming" },
+  { "name": "Discovery+", "domain": "discoveryplus.com", "category": "streaming" },
+
+  { "name": "Adobe Creative Cloud", "domain": "adobe.com", "category": "software" },
+  { "name": "Microsoft 365", "domain": "microsoft.com", "category": "software" },
+  { "name": "Dropbox", "domain": "dropbox.com", "category": "software" },
+  { "name": "Grammarly", "domain": "grammarly.com", "category": "software" },
+  { "name": "Norton", "domain": "norton.com", "category": "software" },
+  { "name": "McAfee", "domain": "mcafee.com", "category": "software" },
+  { "name": "Evernote", "domain": "evernote.com", "category": "software" },
+  { "name": "LastPass", "domain": "lastpass.com", "category": "software" },
+  { "name": "1Password", "domain": "1password.com", "category": "software" },
+
+  { "name": "Peloton", "domain": "onepeloton.com", "category": "fitness" },
+  { "name": "Planet Fitness", "domain": "planetfitness.com", "category": "fitness" },
+  { "name": "Noom", "domain": "noom.com", "category": "fitness" },
+  { "name": "MyFitnessPal", "domain": "myfitnesspal.com", "category": "fitness" },
+  { "name": "Strava", "domain": "strava.com", "category": "fitness" },
+
+  { "name": "Spotify", "domain": "spotify.com", "category": "music" },
+  { "name": "Apple Music", "domain": "apple.com/apple-music", "category": "music" },
+  { "name": "Tidal", "domain": "tidal.com", "category": "music" },
+  { "name": "Amazon Music", "domain": "music.amazon.com", "category": "music" },
+  { "name": "Deezer", "domain": "deezer.com", "category": "music" },
+  { "name": "SiriusXM", "domain": "siriusxm.com", "category": "music" },
+
+  { "name": "Xbox Game Pass", "domain": "xbox.com", "category": "gaming" },
+  { "name": "PlayStation Plus", "domain": "playstation.com", "category": "gaming" },
+  { "name": "Nintendo Switch Online", "domain": "nintendo.com", "category": "gaming" },
+  { "name": "EA Play", "domain": "ea.com", "category": "gaming" },
+
+  { "name": "New York Times", "domain": "nytimes.com", "category": "news" },
+  { "name": "Wall Street Journal", "domain": "wsj.com", "category": "news" },
+  { "name": "Washington Post", "domain": "washingtonpost.com", "category": "news" },
+  { "name": "The Athletic", "domain": "theathletic.com", "category": "news" },
+
+  { "name": "iCloud+", "domain": "apple.com/icloud", "category": "cloud" },
+  { "name": "Google One", "domain": "one.google.com", "category": "cloud" },
+  { "name": "Dropbox Plus", "domain": "dropbox.com", "category": "cloud" },
+
+  { "name": "Amazon Prime", "domain": "amazon.com", "category": "other" },
+  { "name": "Costco", "domain": "costco.com", "category": "other" },
+  { "name": "HelloFresh", "domain": "hellofresh.com", "category": "other" },
+  { "name": "BarkBox", "domain": "barkbox.com", "category": "other" }
+]
