@@ -22,7 +22,7 @@ export default function ServiceGrid({ services }) {
   }, [services, search, category]);
 
   return (
-    <section className="pb-16">
+    <section className="pb-20">
       <div className="space-y-4">
         <SearchBar value={search} onChange={setSearch} />
         <CategoryFilter selected={category} onChange={setCategory} />
@@ -38,7 +38,7 @@ export default function ServiceGrid({ services }) {
           </p>
         </div>
       ) : (
-        <div className="mt-8 grid grid-cols-1 gap-4 md:grid-cols-2">
+        <div className="mt-8 grid grid-cols-1 gap-3 md:grid-cols-2">
           {filtered.map((service) => (
             <ServiceCard key={service.id} service={service} />
           ))}

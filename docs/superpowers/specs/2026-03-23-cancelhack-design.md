@@ -18,7 +18,7 @@ A directory of subscription services that offer retention discounts when you att
 | Framework | Next.js (App Router, ISR/static) |
 | Hosting | Vercel |
 | Database | Supabase (Postgres) |
-| AI Pipeline | Node script using Claude API (`@anthropic-ai/sdk`) |
+| AI Pipeline | Node script using Claude API via Venice inference endpoint (`@anthropic-ai/sdk` with Venice base URL) |
 | Logos | Domain-based logo API (Clearbit or similar, e.g. `https://logo.clearbit.com/{domain}`) |
 
 ## Visual Design

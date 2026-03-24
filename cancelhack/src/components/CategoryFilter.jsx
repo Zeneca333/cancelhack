@@ -9,6 +9,12 @@ const categories = [
   'gaming',
   'news',
   'cloud',
+  'vpn',
+  'dating',
+  'learning',
+  'food',
+  'wellness',
+  'delivery',
   'other',
 ];
 

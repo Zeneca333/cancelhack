@@ -3,8 +3,8 @@ import Header from '@/components/Header';
 import Footer from '@/components/Footer';
 
 export const metadata = {
-  title: 'cancelhack_ — Save money by canceling subscriptions',
-  description: 'Discover which subscription services offer discounts when you try to cancel. Stop overpaying.',
+  title: 'cancelhack_ — Unlock hidden subscription discounts',
+  description: 'Get discounts on subscriptions you already pay for. We show you exactly how to unlock hidden retention offers — step by step.',
 };
 
 export default function RootLayout({ children }) {

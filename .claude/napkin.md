@@ -8,10 +8,11 @@
 - (accumulate here as we learn them)
 
 ## Patterns That Work
-- (approaches that succeeded)
+- Venice AI with Opus 4.6 + web search works well for structured research
+- Retry loop with higher max_tokens (3000 vs 1500) fixed all truncated JSON failures
 
 ## Patterns That Don't Work
-- (approaches that failed and why)
+- max_tokens: 1500 too low for Venice AI research responses — truncated JSON on 12/45 services. Use 3000+.
 
 ## Domain Notes
 - App concept: "Cancel to Save" — helps users discover subscription services that offer retention discounts when you attempt to cancel

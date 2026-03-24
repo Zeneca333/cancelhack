@@ -9,6 +9,12 @@
   { "name": "YouTube Premium", "domain": "youtube.com", "category": "streaming" },
   { "name": "Crunchyroll", "domain": "crunchyroll.com", "category": "streaming" },
   { "name": "Discovery+", "domain": "discoveryplus.com", "category": "streaming" },
+  { "name": "YouTube TV", "domain": "tv.youtube.com", "category": "streaming" },
+  { "name": "Fubo TV", "domain": "fubo.tv", "category": "streaming" },
+  { "name": "Sling TV", "domain": "sling.com", "category": "streaming" },
+  { "name": "Philo", "domain": "philo.com", "category": "streaming" },
+  { "name": "Starz", "domain": "starz.com", "category": "streaming" },
+  { "name": "AMC Plus", "domain": "amcplus.com", "category": "streaming" },
 
   { "name": "Adobe Creative Cloud", "domain": "adobe.com", "category": "software" },
   { "name": "Microsoft 365", "domain": "microsoft.com", "category": "software" },
@@ -19,12 +25,15 @@
   { "name": "Evernote", "domain": "evernote.com", "category": "software" },
   { "name": "LastPass", "domain": "lastpass.com", "category": "software" },
   { "name": "1Password", "domain": "1password.com", "category": "software" },
+  { "name": "Canva Pro", "domain": "canva.com", "category": "software" },
+  { "name": "ChatGPT Plus", "domain": "chat.openai.com", "category": "software" },
 
   { "name": "Peloton", "domain": "onepeloton.com", "category": "fitness" },
   { "name": "Planet Fitness", "domain": "planetfitness.com", "category": "fitness" },
   { "name": "Noom", "domain": "noom.com", "category": "fitness" },
   { "name": "MyFitnessPal", "domain": "myfitnesspal.com", "category": "fitness" },
   { "name": "Strava", "domain": "strava.com", "category": "fitness" },
+  { "name": "ClassPass", "domain": "classpass.com", "category": "fitness" },
 
   { "name": "Spotify", "domain": "spotify.com", "category": "music" },
   { "name": "Apple Music", "domain": "apple.com/apple-music", "category": "music" },
@@ -47,8 +56,48 @@
   { "name": "Google One", "domain": "one.google.com", "category": "cloud" },
   { "name": "Dropbox Plus", "domain": "dropbox.com", "category": "cloud" },
 
+  { "name": "NordVPN", "domain": "nordvpn.com", "category": "vpn" },
+  { "name": "Surfshark", "domain": "surfshark.com", "category": "vpn" },
+  { "name": "ExpressVPN", "domain": "expressvpn.com", "category": "vpn" },
+  { "name": "CyberGhost", "domain": "cyberghostvpn.com", "category": "vpn" },
+  { "name": "Private Internet Access", "domain": "privateinternetaccess.com", "category": "vpn" },
+  { "name": "ProtonVPN", "domain": "protonvpn.com", "category": "vpn" },
+
+  { "name": "Tinder", "domain": "tinder.com", "category": "dating" },
+  { "name": "Bumble", "domain": "bumble.com", "category": "dating" },
+  { "name": "Hinge", "domain": "hinge.co", "category": "dating" },
+  { "name": "Match", "domain": "match.com", "category": "dating" },
+  { "name": "OkCupid", "domain": "okcupid.com", "category": "dating" },
+
+  { "name": "Coursera", "domain": "coursera.org", "category": "learning" },
+  { "name": "Skillshare", "domain": "skillshare.com", "category": "learning" },
+  { "name": "MasterClass", "domain": "masterclass.com", "category": "learning" },
+  { "name": "Duolingo Super", "domain": "duolingo.com", "category": "learning" },
+  { "name": "LinkedIn Learning", "domain": "linkedin.com/learning", "category": "learning" },
+
+  { "name": "HelloFresh", "domain": "hellofresh.com", "category": "food" },
+  { "name": "EveryPlate", "domain": "everyplate.com", "category": "food" },
+  { "name": "Home Chef", "domain": "homechef.com", "category": "food" },
+  { "name": "Factor", "domain": "factor75.com", "category": "food" },
+
+  { "name": "Calm", "domain": "calm.com", "category": "wellness" },
+  { "name": "Headspace", "domain": "headspace.com", "category": "wellness" },
+  { "name": "BetterHelp", "domain": "betterhelp.com", "category": "wellness" },
+  { "name": "Talkspace", "domain": "talkspace.com", "category": "wellness" },
+
+  { "name": "Instacart Plus", "domain": "instacart.com", "category": "delivery" },
+  { "name": "DoorDash DashPass", "domain": "doordash.com", "category": "delivery" },
+  { "name": "Uber One", "domain": "uber.com", "category": "delivery" },
+  { "name": "Walmart Plus", "domain": "walmart.com", "category": "delivery" },
+  { "name": "Grubhub Plus", "domain": "grubhub.com", "category": "delivery" },
+
   { "name": "Amazon Prime", "domain": "amazon.com", "category": "other" },
   { "name": "Costco", "domain": "costco.com", "category": "other" },
-  { "name": "HelloFresh", "domain": "hellofresh.com", "category": "other" },
-  { "name": "BarkBox", "domain": "barkbox.com", "category": "other" }
+  { "name": "BarkBox", "domain": "barkbox.com", "category": "other" },
+  { "name": "Audible", "domain": "audible.com", "category": "other" },
+  { "name": "Kindle Unlimited", "domain": "amazon.com/kindleunlimited", "category": "other" },
+  { "name": "Scribd", "domain": "scribd.com", "category": "other" },
+  { "name": "Chewy", "domain": "chewy.com", "category": "other" },
+  { "name": "FabFitFun", "domain": "fabfitfun.com", "category": "other" },
+  { "name": "LifeLock", "domain": "lifelock.norton.com", "category": "other" }
 ]

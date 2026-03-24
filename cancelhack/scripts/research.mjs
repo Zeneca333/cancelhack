@@ -93,19 +93,19 @@ function sleep(ms) {
 function buildPrompt(service) {
   const currentDate = new Date().toISOString().split("T")[0];
 
-  return `You are a subscription savings researcher. Today is ${currentDate}.
+  return `You are a subscription discount researcher. Today is ${currentDate}.
 
-Research the cancellation retention offer (also known as a "save offer" or "cancel discount") for **${service.name}** (${service.domain}).
+Research the hidden discount available for **${service.name}** (${service.domain}). These are discounts customers can unlock by starting (but not completing) the cancellation flow — the goal is to GET THE DISCOUNT and KEEP the service, not to actually cancel.
 
 IMPORTANT: Only use information from the last 12 months. Ignore anything older.
 
 Find out:
 1. The current standard subscription price (most popular plan)
-2. What discount or offer they give customers who attempt to cancel (the retention offer)
-3. The estimated dollar savings per year from accepting the retention offer
+2. What discount is available when you start the cancellation flow (the retention/save offer)
+3. The estimated dollar savings per year from getting this discount
 4. Your confidence in this data (high = multiple recent reports confirm it; medium = some reports or community posts; low = sparse or anecdotal)
-5. The step-by-step instructions a customer follows to reach the cancel/retention screen
-6. Any tips for maximizing the discount (e.g., "say you're switching to a competitor", "wait for the second offer")
+5. Step-by-step instructions to unlock the discount — frame each step as "how to reach the discount screen", NOT "how to cancel". The final step should always be about accepting the discount offer.
+6. Tips for maximizing the discount — e.g. "select 'too expensive' as your reason", "decline the first offer to get a better one", "mention a competitor". Frame tips as strategies for getting the best deal, not for cancelling.
 7. Where you found this information (source notes — URLs, Reddit threads, articles, etc.)
 
 Respond with ONLY a valid JSON object (no markdown, no code fences, no extra text) matching this exact schema:
@@ -263,7 +263,7 @@ async function main() {
         slug,
         name: service.name,
         domain: service.domain,
-        logo_url: `https://logo.clearbit.com/${service.domain.split("/")[0]}`,
+        logo_url: `https://www.google.com/s2/favicons?domain=${service.domain.split("/")[0]}&sz=128`,
         category: service.category,
         normal_price: parsed.normal_price,
         retention_offer: parsed.retention_offer,
