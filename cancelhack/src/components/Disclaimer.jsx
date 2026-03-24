@@ -1,6 +1,6 @@
 export default function Disclaimer() {
   return (
-    <div className="rounded-xl border border-amber-400/30 bg-amber-50/60 px-5 py-4 flex items-start gap-3">
+    <div className="mb-10 rounded-xl border border-amber-400/30 bg-amber-50/60 px-5 py-4 flex items-start gap-3">
       <svg
         className="h-5 w-5 text-amber-500 shrink-0 mt-0.5"
         fill="none"

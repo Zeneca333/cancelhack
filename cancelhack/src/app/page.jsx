@@ -30,8 +30,8 @@ export default async function Home() {
   return (
     <div className="mx-auto w-full max-w-content px-6 animate-fade-in">
       <Hero />
-      <Disclaimer />
       <FeaturedServices services={featured} />
+      <Disclaimer />
       <ServiceGrid services={serviceList} />
     </div>
   );
