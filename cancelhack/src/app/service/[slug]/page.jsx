@@ -6,6 +6,7 @@ import ConfidenceBadge from '@/components/ConfidenceBadge';
 import CancelSteps from '@/components/CancelSteps';
 import ProTip from '@/components/ProTip';
 import SourceNotes from '@/components/SourceNotes';
+import Disclaimer from '@/components/Disclaimer';
 
 export const revalidate = 86400;
 
@@ -119,6 +120,11 @@ export default async function ServiceDetailPage({ params }) {
               </div>
             </div>
           </div>
+        </div>
+
+        {/* ---- DISCLAIMER ---- */}
+        <div className="mt-8">
+          <Disclaimer />
         </div>
 
         {/* ---- CONTENT GRID ---- */}

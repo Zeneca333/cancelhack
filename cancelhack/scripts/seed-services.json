@@ -6,7 +6,7 @@
   { "name": "Paramount+", "domain": "paramountplus.com", "category": "streaming" },
   { "name": "Peacock", "domain": "peacocktv.com", "category": "streaming" },
   { "name": "Apple TV+", "domain": "tv.apple.com", "category": "streaming" },
-  { "name": "YouTube Premium", "domain": "youtube.com", "category": "streaming" },
+
   { "name": "Crunchyroll", "domain": "crunchyroll.com", "category": "streaming" },
   { "name": "Discovery+", "domain": "discoveryplus.com", "category": "streaming" },
   { "name": "YouTube TV", "domain": "tv.youtube.com", "category": "streaming" },

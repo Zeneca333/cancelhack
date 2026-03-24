@@ -17,3 +17,5 @@
 ## Domain Notes
 - App concept: "Cancel to Save" — helps users discover subscription services that offer retention discounts when you attempt to cancel
 - This is a greenfield project, starting from scratch
+- YouTube Premium removed (2026-03-24): user reported it actually cancelled their account instead of offering a discount. Added Disclaimer component site-wide.
+- AI-researched data carries real risk — services may just cancel accounts. Always include disclaimers.
